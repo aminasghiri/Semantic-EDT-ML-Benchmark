@@ -1,0 +1,5 @@
+comparison,left_rows,right_rows,matched_keys,left_only,right_only,temperature_mismatch,relative_humidity_mismatch,co2_mismatch
+CSV vs RDF export — complete time grid,94241,94241,94241,0,0,0,0,0
+CSV vs RDF export — complete cases,92850,92850,92850,0,0,0,0,0
+Recomputed RDF vs archived time grid,94241,94241,94241,0,0,0,0,0
+Recomputed RDF vs archived complete cases,92850,92850,92850,0,0,0,0,0

@@ -1,0 +1,13 @@
+{
+  "n_raw": 323266,
+  "n_rdf": 323266,
+  "n_common_keys": 323266,
+  "n_only_raw": 0,
+  "n_only_rdf": 0,
+  "n_exact_numeric_equal": 323072,
+  "n_numeric_differences_at_1e-9": 187,
+  "n_numeric_differences_at_1e-5": 0,
+  "max_abs_numeric_difference": 4.6563720701442435e-06,
+  "n_unit_mismatch": 0,
+  "time_to_merge_and_compare_seconds": 1.57
+}

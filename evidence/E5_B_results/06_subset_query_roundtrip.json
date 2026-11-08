@@ -1,0 +1,7 @@
+{
+  "raw_rows": 1500,
+  "sparql_rows": 1500,
+  "maximum_absolute_value_difference": 0.0,
+  "unit_mismatches": 0,
+  "shacl_executed": true
+}

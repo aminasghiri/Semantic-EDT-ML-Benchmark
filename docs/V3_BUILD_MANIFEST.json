@@ -1,0 +1,9 @@
+{
+  "release_status": "PREPUBLICATION; no full rerun",
+  "base_archive": "TalTech_GitHub_REVISED_v2_PREPUBLICATION.zip",
+  "archive_additions": 104,
+  "notebook_count": 47,
+  "note": "README and runbook not validated end-to-end; scientific code not altered in V3",
+  "supplementary_evidence_files": 98,
+  "source_output_zip": "outputs(1).zip (not bundled)"
+}

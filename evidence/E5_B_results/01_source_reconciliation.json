@@ -1,0 +1,12 @@
+{
+  "raw_rows": 323266,
+  "semantic_export_rows": 323266,
+  "exact_key_matches": 323266,
+  "raw_only": 0,
+  "rdf_only": 0,
+  "value_matches_at_tolerance": 323266,
+  "max_absolute_value_difference": 4.6563720701442435e-06,
+  "unit_disagreements": 0,
+  "raw_read_s": 0.6675135230034357,
+  "precomputed_semantic_export_read_s": 1.1915864019974833
+}

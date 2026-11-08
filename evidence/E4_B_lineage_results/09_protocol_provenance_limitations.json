@@ -1,0 +1,44 @@
+{
+  "experiment": "E4-B RDF-to-supervised-to-final lineage audit",
+  "source_rdf": "outputs/04_sparql/03_ml_extraction_long_traceable.csv",
+  "source_supervised": "outputs/06_common_experiment/01_common_supervised_dataset.csv",
+  "alignment": "07D_final_alignment/02_tabular_core_15_unscaled.csv",
+  "source_hash_sha256": {
+    "outputs/04_sparql/03_ml_extraction_long_traceable.csv": "0d72a7878876f1b1d784de369d25b8f5ed4a260d17a4cf716e627437fa7afb31",
+    "outputs/06_common_experiment/01_common_supervised_dataset.csv": "d4688ca78780d157304392510d88911d161f41f2723ff4caa631cc4d93606e2e"
+  },
+  "method": "Raw RDF timestamps grouped by floor(15 min), with UUID and variable; compare 16 sample values per final row to raw candidates in same grid slot.",
+  "matched_supervised_final": {
+    "supervised_unique_keys": true,
+    "all_final_keys_in_supervised": true,
+    "current_temperature_equal": 92316,
+    "target_temperature_equal": 92316,
+    "target_timestamp_equal": 92316,
+    "total_final": 92316,
+    "final_vs_sequence_keys_equal": true,
+    "seven_node_snapshots": true
+  },
+  "summary": {
+    "n_final_samples": 92316,
+    "n_checked_values": 1477056,
+    "n_input_features_per_sample": 15,
+    "n_target_features_per_sample": 1,
+    "all_16_feature_grid_candidates_samples": 91196,
+    "all_16_features_unique_value_match_samples": 65968,
+    "single_candidate_value_match": 1231133,
+    "single_candidate_value_match_fraction": 0.8335046200008666,
+    "multiple_candidates_value_in_range": 240751,
+    "multiple_candidates_value_in_range_fraction": 0.16299382013952077,
+    "candidate_value_mismatch": 723,
+    "candidate_value_mismatch_fraction": 0.0004894871961523462,
+    "no_candidate_in_grid": 4449,
+    "no_candidate_in_grid_fraction": 0.0030120726634602886
+  },
+  "limit_1": "The true synchronization convention and row-level transformation lineage are not independently verified.",
+  "limit_2": "Same-grid candidate and numerical equality are not proof of which original RDF observation generated a value.",
+  "limit_3": "Multiple raw observations and interpolated values cannot be disambiguated without processing logs or original transformation code.",
+  "limit_4": "No empirical advantage of semantic vs. nonsemantic preprocessing or forecasting is tested.",
+  "input_model": "5x3 node-local sensor history plus one +15 min temperature target, horizon 15 minutes",
+  "status": "descriptive evidence; not fully verified exact RDF lineage",
+  "pandas": "2.3.0"
+}

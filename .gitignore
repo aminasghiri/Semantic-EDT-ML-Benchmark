@@ -1,0 +1,17 @@
+# Local input and scratch data (NOT automatically cleared for public redistribution)
+data/
+outputs/
+*.nt
+*.nq
+*.parquet
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.zip
+*.env
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

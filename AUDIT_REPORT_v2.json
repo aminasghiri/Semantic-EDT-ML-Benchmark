@@ -1,0 +1,54 @@
+{
+  "notebooks_included": 47,
+  "path_cell_edits": [
+    {
+      "notebook": "E5_B_semantic_vs_nonsemantic_end_to_end.ipynb",
+      "cell_index": 1,
+      "change": "portable local path / remove container-specific fallback"
+    },
+    {
+      "notebook": "E3_K_GCN_connectivity_training.ipynb",
+      "cell_index": 3,
+      "change": "portable local path / remove container-specific fallback"
+    },
+    {
+      "notebook": "08B — LSTM + TCN.ipynb",
+      "cell_index": 3,
+      "change": "portable local path / remove container-specific fallback"
+    },
+    {
+      "notebook": "09 — Temporal Generalization Distribution-Shift Analysis.ipynb",
+      "cell_index": 1,
+      "change": "portable local path / remove container-specific fallback"
+    }
+  ],
+  "imports_observed": {
+    "IPython": 2,
+    "ifcopenshell": 3,
+    "matplotlib": 12,
+    "mpl_toolkits": 1,
+    "networkx": 7,
+    "numpy": 55,
+    "pandas": 60,
+    "pygraphviz": 2,
+    "pyoxigraph": 1,
+    "pyshacl": 1,
+    "rdflib": 7,
+    "scipy": 1,
+    "sklearn": 28,
+    "torch": 41,
+    "xgboost": 7
+  },
+  "checked_archived_metrics": [
+    "E5-A/B source counts: 323266 CSV = 323266 RDF (archived)",
+    "E5-A/B no unmatched records and no unit disagreements (archived)",
+    "E5-A/B numeric error below 1e-5 (archived)",
+    "E4-B 92316 aligned samples and 1477056 values (archived)"
+  ],
+  "notebook_execution": "NOT RUN",
+  "production_RDF_rebuilt": "NO",
+  "full_code_to_article_validation": "NOT VERIFIED",
+  "environment_pins": "NOT AVAILABLE",
+  "raw_data_included": "NO",
+  "full_outputs_included": "NO"
+}

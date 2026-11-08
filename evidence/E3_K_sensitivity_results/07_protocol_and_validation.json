@@ -1,0 +1,52 @@
+{
+  "experiment": "E3-K GCN connectivity sensitivity",
+  "source": "/home/amina/Desktop/Approch Ia Taltech (3)/Approch Ia Taltech/Approch Ia Taltech/outputs",
+  "seed_list": [
+    42,
+    123,
+    2026
+  ],
+  "k_values": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "completed": true,
+  "architecture": "2-layer primary GCN, hidden=64, ReLU, 0.1 dropout, linear head",
+  "adjacency": "Unweighted undirected union of train-only top-k Pearson with self-loops and symmetric normalization",
+  "input_source": "07D_final_alignment/X_graph_*_scaled.npy",
+  "target_source": "07D_final_alignment/y_graph_*.npy",
+  "batch_size": 256,
+  "max_epochs": 80,
+  "patience": 10,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "dropout_training_note": "Training dropout ordering documented in notebook; original archive does not contain source training code.",
+  "python": "3.10.12",
+  "torch": "2.9.1+cpu",
+  "device": "cpu",
+  "checkpoint_inference_validation": [
+    {
+      "seed": 42,
+      "checkpoint_RMSE": 0.5738262018548554,
+      "archived_RMSE": 0.5738263130187988,
+      "difference": -1.111639433837297e-07
+    },
+    {
+      "seed": 123,
+      "checkpoint_RMSE": 0.6049181984553719,
+      "archived_RMSE": 0.6049181222915649,
+      "difference": 7.616380692798685e-08
+    },
+    {
+      "seed": 2026,
+      "checkpoint_RMSE": 0.6784720178349349,
+      "archived_RMSE": 0.6784719228744507,
+      "difference": 9.49604842537255e-08
+    }
+  ]
+}

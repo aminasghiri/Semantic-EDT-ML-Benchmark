@@ -1,0 +1,60 @@
+{
+  "experiment": "E5-B controlled CSV vs RDF end-to-end audit",
+  "raw_source": "01_extraction/02_selected_raw_observations_long.csv",
+  "semantic_export": "04_sparql/03_ml_extraction_long_traceable.csv",
+  "full_preparation_executed": true,
+  "bounded_rdf_workflow_executed": true,
+  "bounded_rdf_observations": 1500,
+  "shacl_executed": true,
+  "common_preparation_rules": "nearest 15-min bin; mean collision; internal missing runs <=4 grid slots time-interpolated",
+  "limitation_1": "Full raw\u2192production Brick graph construction is not replayed in this notebook.",
+  "limitation_2": "Full production SHACL/SPARQL runtime is not compared with CSV end-to-end.",
+  "limitation_3": "No causal RDF advantage for prediction, manual effort or interoperability is established.",
+  "limitation_4": "Synthetic bounded graph uses SOSA + custom terms; it is not the full production ontology.",
+  "full_reconciliation_results": [
+    {
+      "comparison": "CSV vs RDF export \u2014 complete time grid",
+      "left_rows": 94241,
+      "right_rows": 94241,
+      "matched_keys": 94241,
+      "left_only": 0,
+      "right_only": 0,
+      "temperature_mismatch": 0,
+      "relative_humidity_mismatch": 0,
+      "co2_mismatch": 0
+    },
+    {
+      "comparison": "CSV vs RDF export \u2014 complete cases",
+      "left_rows": 92850,
+      "right_rows": 92850,
+      "matched_keys": 92850,
+      "left_only": 0,
+      "right_only": 0,
+      "temperature_mismatch": 0,
+      "relative_humidity_mismatch": 0,
+      "co2_mismatch": 0
+    },
+    {
+      "comparison": "Recomputed RDF vs archived time grid",
+      "left_rows": 94241,
+      "right_rows": 94241,
+      "matched_keys": 94241,
+      "left_only": 0,
+      "right_only": 0,
+      "temperature_mismatch": 0,
+      "relative_humidity_mismatch": 0,
+      "co2_mismatch": 0
+    },
+    {
+      "comparison": "Recomputed RDF vs archived complete cases",
+      "left_rows": 92850,
+      "right_rows": 92850,
+      "matched_keys": 92850,
+      "left_only": 0,
+      "right_only": 0,
+      "temperature_mismatch": 0,
+      "relative_humidity_mismatch": 0,
+      "co2_mismatch": 0
+    }
+  ]
+}

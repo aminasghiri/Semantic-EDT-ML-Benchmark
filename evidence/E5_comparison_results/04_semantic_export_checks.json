@@ -1,0 +1,8 @@
+{
+  "unique_observation_uris": true,
+  "num_distinct_point_uris": 21,
+  "point_uris_per_uuid_variable_max": 1,
+  "point_uris_per_uuid_variable_min": 1,
+  "any_native_uuid_to_ifc_mapping_proven_by_these_tables": false,
+  "provenance_through_resampling_proven_by_these_tables": false
+}

@@ -1,0 +1,4 @@
+split,samples,all_16_candidates,all_16_unique_and_equal,no_raw_candidate_values,candidate_mismatch_values,ambiguous_multicandidate_values
+test,13790,13657,13656,343,8,0
+train,64701,63854,38627,3651,709,240751
+validation,13825,13685,13685,455,6,0

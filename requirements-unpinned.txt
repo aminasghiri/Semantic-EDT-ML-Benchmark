@@ -1,0 +1,18 @@
+# Discovered scientific packages; versions are intentionally UNPINNED.
+# This is NOT a validated environment lock. Capture original versions before release.
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+torch
+matplotlib
+rdflib
+pyshacl
+pyoxigraph
+ifcopenshell
+networkx
+pygraphviz
+jupyterlab
+ipykernel
+nbformat

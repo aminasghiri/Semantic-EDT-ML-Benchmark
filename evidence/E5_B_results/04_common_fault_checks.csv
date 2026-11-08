@@ -1,0 +1,11 @@
+branch,type,flagged
+CSV,missing_uuid,1
+CSV,missing_timestamp,1
+CSV,unknown_variable,1
+CSV,invalid_unit,1
+CSV,missing_value,1
+RDF-export,missing_uuid,1
+RDF-export,missing_timestamp,1
+RDF-export,unknown_variable,1
+RDF-export,invalid_unit,1
+RDF-export,missing_value,1

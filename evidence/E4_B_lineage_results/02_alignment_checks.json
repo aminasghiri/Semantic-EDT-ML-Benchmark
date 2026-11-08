@@ -1,0 +1,10 @@
+{
+  "supervised_unique_keys": true,
+  "all_final_keys_in_supervised": true,
+  "current_temperature_equal": 92316,
+  "target_temperature_equal": 92316,
+  "target_timestamp_equal": 92316,
+  "total_final": 92316,
+  "final_vs_sequence_keys_equal": true,
+  "seven_node_snapshots": true
+}

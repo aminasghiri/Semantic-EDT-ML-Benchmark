@@ -1,0 +1,3 @@
+branch,read_s,prepare_s,grid_buckets,slots_with_collisions,interpolated_cells,complete_rows
+Direct CSV,0.6675135230034357,0.5626043890006258,277639,45274,937,92850
+Existing RDF/SPARQL export,1.1915864019974833,0.5795180210043327,277639,45274,937,92850

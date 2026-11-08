@@ -1,0 +1,8 @@
+fault,shared_field,CSV_applicable,CSV_detected,RDF_export_detected,CSV_flags,RDF_export_flags
+missing_device,True,True,True,True,invalid_device,invalid_device
+missing_timestamp,True,True,True,True,missing_timestamp,missing_timestamp
+invalid_variable,True,True,True,True,unknown_variable,unknown_variable
+wrong_unit,True,True,True,True,wrong_unit,wrong_unit
+missing_value,True,True,True,True,missing_value,missing_value
+invalid_point_uri,False,False,,True,NOT APPLICABLE,invalid_point_uri
+missing_observation_uri,False,False,,True,NOT APPLICABLE,missing_observation_uri

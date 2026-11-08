@@ -1,0 +1,3 @@
+pipeline,rows,devices,variables,has_device_id,has_timestamp,has_variable,has_value,has_unit,has_semantic_point_uri,has_observation_uri,has_source_file
+CSV raw,323266,7,3,323266,323266,323266,323266,323266,0,0,323266
+RDF/SPARQL export,323266,7,3,323266,323266,323266,323266,323266,323266,323266,0

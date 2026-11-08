@@ -1,0 +1,5 @@
+split,supervised,aligned,removed,sequence_samples,graph_snapshots,graph_node_predictions_expected
+train,64930,64701,229,64701,9243,64701
+validation,13909,13825,84,13825,1975,13825
+test,13916,13790,126,13790,1970,13790
+TOTAL,92755,92316,439,92316,13188,92316

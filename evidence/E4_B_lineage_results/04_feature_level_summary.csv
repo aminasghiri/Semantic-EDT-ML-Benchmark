@@ -1,0 +1,17 @@
+feature,variable,offset_minutes,n_samples,single_candidate_value_match,multiple_candidates_value_in_range,candidate_value_mismatch,no_candidate_in_grid
+temperature_t_minus_60,temperature,-60,92316,76982,15021,40,273
+relative_humidity_t_minus_60,relative_humidity,-60,92316,76602,15413,28,273
+co2_t_minus_60,co2,-60,92316,77238,14737,68,273
+temperature_t_minus_45,temperature,-45,92316,76982,15016,38,280
+relative_humidity_t_minus_45,relative_humidity,-45,92316,76598,15413,28,277
+co2_t_minus_45,co2,-45,92316,77238,14733,65,280
+temperature_t_minus_30,temperature,-30,92316,76987,15010,39,280
+relative_humidity_t_minus_30,relative_humidity,-30,92316,76595,15413,28,280
+co2_t_minus_30,co2,-30,92316,77242,14729,65,280
+temperature_t_minus_15,temperature,-15,92316,76993,15004,39,280
+relative_humidity_t_minus_15,relative_humidity,-15,92316,76595,15413,28,280
+co2_t_minus_15,co2,-15,92316,77246,14725,65,280
+temperature_t,temperature,0,92316,77002,14998,40,276
+relative_humidity_t,relative_humidity,0,92316,76597,15413,29,277
+co2_t,co2,0,92316,77239,14721,83,273
+target_temperature_t_plus_15,temperature,15,92316,76997,14992,40,287
