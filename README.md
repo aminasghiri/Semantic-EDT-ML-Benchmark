@@ -327,19 +327,7 @@ Selected derived experimental results and supporting scripts are included in thi
 
 The availability of additional intermediate data and trained models is subject to data redistribution rights, file size, and the research team's release policy.
 
-## 13. Citation
-
-If you use this repository, please cite the associated research manuscript:
-
-Sghiri, A., Gallab, M., Merzouk, S., and Assoul, S.
-
-*Data Representation Paradigms in Semantic Energy Digital Twins: Comparing Tabular, Sequential, and Graph-Based Representation–Model Pipelines.*
-
-**Energy Informatics — Manuscript under review.**
-
-A permanent software archive DOI will be added following the release of a validated version on Zenodo.
-
-## 14. Authors
+## 13. Authors
 
 **Amina Sghiri**  
 Mines-Rabat School (ENSMR), LISTD Laboratory, Morocco  
